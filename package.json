@@ -1,0 +1,34 @@
+{
+  "name": "start-vite",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@8.15.4",
+  "scripts": {
+    "dev": "vite --host --open",
+    "serve": "vite serve",
+    "build": "vite build",
+    "tsc": "vue-tsc --noEmit --skipLibCheck",
+    "ci": "pnpm tsc"
+  },
+  "browserslist": [
+    "> 1%",
+    "chrome >= 72",
+    "last 2 versions",
+    "not dead"
+  ],
+  "dependencies": {
+    "@antv/g2": "5.1.15-beta.4",
+    "@vueuse/core": "^10.9.0",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.25",
+    "@vitejs/plugin-legacy": "^4.1.1",
+    "@vitejs/plugin-vue": "^4.5.0",
+    "@vitejs/plugin-vue-jsx": "^3.1.0",
+    "typescript": "^5.4.2",
+    "vite": "^4.5.1",
+    "vue-tsc": "^2.0.6"
+  }
+}
